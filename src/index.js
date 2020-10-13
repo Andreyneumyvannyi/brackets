@@ -3,6 +3,7 @@ module.exports = function check(str, bracketsConfig) {
     for (i = 0; i < bracketsConfig.length; i++) {
         arrConfig = arrConfig.concat(bracketsConfig[i]);
     }
+
     let closeBr = [];
 
     for (j = 0; j < str.length; j++) {
